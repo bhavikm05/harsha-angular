@@ -1,5 +1,5 @@
-import { AboutComponent } from './about/about.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { AboutComponent } from './admin/about/about.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
