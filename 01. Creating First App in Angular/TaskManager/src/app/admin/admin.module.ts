@@ -4,17 +4,18 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardService } from "../dashboard.service"
-
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
     MyProfileComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [    CommonModule  ],
-  exports: [ DashboardComponent, MyProfileComponent, AboutComponent ],
+  exports: [ DashboardComponent, MyProfileComponent, AboutComponent,  ProjectsComponent],
   providers: [DashboardService]
 })
 
